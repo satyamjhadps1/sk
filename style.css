@@ -1,0 +1,52 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    background-color:rgb(243, 140, 108);
+    color: aqua;
+    padding: 0.5%;
+    text-align: center;
+}
+
+.he p{
+    font-family: "Oswald", sans-serif;
+    display: inline;
+    margin-left: 10px;
+}
+
+#s_k{
+    float: right;
+    margin-top: 2.5px;
+}
+
+.l_l{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.c_b{
+    margin-top: 90px;
+}
+
+canvas{
+    animation-name: ex;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    margin-top: 150px;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+@keyframes ex{
+    10%{box-shadow: 1px 20px 20px orange}
+    30%{box-shadow: 2px 15px 15px yellow;}
+    60%{box-shadow: 3px 21px 21px rgb(248, 83, 83);}
+    90%{box-shadow: 3.5px 21px 21px rosybrown;}
+    100%{box-shadow: 4px 22px 22px rgb(137, 252, 175);}
+}
